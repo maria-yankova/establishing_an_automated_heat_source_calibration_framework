@@ -1,0 +1,21 @@
+name: env_calib_heat_source
+dependencies:
+- python>=3.6
+- pip
+- pylint
+- ipykernel
+- rope
+- autopep8
+- twine
+- wheel
+- sphinx
+- recommonmark
+- scipy
+- pandas
+- plotly
+- matplotlib
+- csv
+- glob
+- math
+- decimal
+
