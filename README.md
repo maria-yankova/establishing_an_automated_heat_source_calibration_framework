@@ -12,12 +12,19 @@
 Wish you a nice day :)
 
 
-Instructions to use the demo Jupyter notebooks:
+## Instructions to use the demo Jupyter notebooks:
+
 1) Clone this repository
 2) Activate a new Python 3 virtual environment from the root of the cloned repository with:
+
     python -m venv <venv-name>
+
 3) Activate the environment – see Python 3 documentation based on your operating system (https://docs.python.org/3/tutorial/venv.html)
 4) Install the required packages using:
+
     python -m pip install -r requirements.txt
+
 5) Start Jupyter with the command: 
+
 	jupyter notebook
+
