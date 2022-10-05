@@ -10,6 +10,7 @@ def calculate_temperature_rise(temp_data):
         d['temp_rise'] = d['temperature'].max(axis=0) - d['temperature'][d['temperature']>0.0].min(axis=0)
 
     return temp_data
+    
 def calculate_rms_error(exp_data, sim_data, tc_names='all', split_delim='-'):
     """
     Calculate the RMS error of the simulated temperature values for a range of efficiencies against 
